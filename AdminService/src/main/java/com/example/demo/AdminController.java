@@ -18,6 +18,8 @@ public class AdminController {
 	@Autowired
 	private AdminService adminService;
 	
+	// code
+	
 	
 	@RequestMapping(value="validateUser")
 	public UserDto findUserByUsernameAndPassword(@RequestParam("username") String username,@RequestParam("password") String password) {
